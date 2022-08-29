@@ -31,9 +31,7 @@ body {
   font-size: 4rem;
   border-radius: 50%;
   filter: drop-shadow(4px 4ps 10ps #fff);
-  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
-    30px 50px 40px rgba(0, 0, 0, 0.05), 30px 40px 40px rgba(0, 0, 0, 0.05),
-    inset -20px -20px 15px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 20px 20px 20px rgb(0 0 0 / 5%), 30px 50px 40px rgb(0 0 0 / 5%), 30px 40px 40px rgb(0 0 0 / 5%), inset -6px -10px 50px rgb(255 255 255 / 90%);
 }
 #bubble:hover {
   animation: burst 5s infinite;
